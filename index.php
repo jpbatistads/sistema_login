@@ -6,18 +6,18 @@
     <meta name="author" content="joao.batista@a.ficr.edu.br">
     
 
-    <title>Página De Login</title>
+    <title>Sistema de cadastro</title>
 
   
     <!-- Bootstrap core CSS -->
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="public/css/signin.css" rel="stylesheet">
+    <link href="public/css/main.css" rel="stylesheet">
   </head>
 
   <body class="text-center">
-    <form class="form-signin" action="database/dados.php" method="POST">
+    <form class="form-signin" action="database/login.php" method="POST">
       <img src="public/img/logo.svg" alt="logo" width="100" height="90">
       <h1 class="h3 mb-3 font-weight-normal"> Informe Os Dados</h1>
       <label for="inputEmail" class="sr-only">Email address</label>
